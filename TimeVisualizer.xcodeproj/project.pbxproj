@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8423E76E276FAB3C007277B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423E76D276FAB3C007277B9 /* AppDelegate.swift */; };
 		8423E770276FAB3C007277B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423E76F276FAB3C007277B9 /* SceneDelegate.swift */; };
-		8423E772276FAB3C007277B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423E771276FAB3C007277B9 /* ViewController.swift */; };
 		8423E775276FAB3C007277B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423E773276FAB3C007277B9 /* Main.storyboard */; };
 		8423E778276FAB3C007277B9 /* TimeVisualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8423E776276FAB3C007277B9 /* TimeVisualizer.xcdatamodeld */; };
 		8423E77A276FAB3D007277B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423E779276FAB3D007277B9 /* Assets.xcassets */; };
@@ -17,6 +16,17 @@
 		8423E788276FAB3D007277B9 /* TimeVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423E787276FAB3D007277B9 /* TimeVisualizerTests.swift */; };
 		8423E792276FAB3D007277B9 /* TimeVisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423E791276FAB3D007277B9 /* TimeVisualizerUITests.swift */; };
 		8423E794276FAB3D007277B9 /* TimeVisualizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423E793276FAB3D007277B9 /* TimeVisualizerUITestsLaunchTests.swift */; };
+		8468868D277308A40018A093 /* NSUIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468868C277308A40018A093 /* NSUIColor+Hex.swift */; };
+		848112CC276FACDF0082D850 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 848112CB276FACDF0082D850 /* Charts */; };
+		84CB340927720C060066E72D /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB340827720C060066E72D /* Delegates.swift */; };
+		84E6A40F276FB07500F11F5E /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A408276FB07400F11F5E /* NoteTableViewCell.swift */; };
+		84E6A410276FB07500F11F5E /* KeyWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A409276FB07400F11F5E /* KeyWordsViewController.swift */; };
+		84E6A411276FB07500F11F5E /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A40A276FB07400F11F5E /* StatisticsViewController.swift */; };
+		84E6A412276FB07500F11F5E /* KeyWordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A40B276FB07500F11F5E /* KeyWordCollectionViewCell.swift */; };
+		84E6A413276FB07500F11F5E /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A40C276FB07500F11F5E /* NotesViewController.swift */; };
+		84E6A414276FB07500F11F5E /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A40D276FB07500F11F5E /* ColumnFlowLayout.swift */; };
+		84E6A415276FB07500F11F5E /* StatisticsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A40E276FB07500F11F5E /* StatisticsTableViewCell.swift */; };
+		84E6A417276FBB9400F11F5E /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A416276FBB9400F11F5E /* Days.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +50,6 @@
 		8423E76A276FAB3C007277B9 /* TimeVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423E76D276FAB3C007277B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8423E76F276FAB3C007277B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8423E771276FAB3C007277B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8423E774276FAB3C007277B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8423E777276FAB3C007277B9 /* TimeVisualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeVisualizer.xcdatamodel; sourceTree = "<group>"; };
 		8423E779276FAB3D007277B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		8423E78D276FAB3D007277B9 /* TimeVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423E791276FAB3D007277B9 /* TimeVisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVisualizerUITests.swift; sourceTree = "<group>"; };
 		8423E793276FAB3D007277B9 /* TimeVisualizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVisualizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8468868C277308A40018A093 /* NSUIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUIColor+Hex.swift"; sourceTree = "<group>"; };
+		84CB340827720C060066E72D /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		84E6A408276FB07400F11F5E /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		84E6A409276FB07400F11F5E /* KeyWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyWordsViewController.swift; sourceTree = "<group>"; };
+		84E6A40A276FB07400F11F5E /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		84E6A40B276FB07500F11F5E /* KeyWordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyWordCollectionViewCell.swift; sourceTree = "<group>"; };
+		84E6A40C276FB07500F11F5E /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		84E6A40D276FB07500F11F5E /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
+		84E6A40E276FB07500F11F5E /* StatisticsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewCell.swift; sourceTree = "<group>"; };
+		84E6A416276FBB9400F11F5E /* Days.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Days.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848112CC276FACDF0082D850 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +121,23 @@
 		8423E76C276FAB3C007277B9 /* TimeVisualizer */ = {
 			isa = PBXGroup;
 			children = (
+				84E6A40D276FB07500F11F5E /* ColumnFlowLayout.swift */,
+				84E6A40B276FB07500F11F5E /* KeyWordCollectionViewCell.swift */,
+				84E6A409276FB07400F11F5E /* KeyWordsViewController.swift */,
+				84E6A40C276FB07500F11F5E /* NotesViewController.swift */,
+				84E6A408276FB07400F11F5E /* NoteTableViewCell.swift */,
+				84E6A40E276FB07500F11F5E /* StatisticsTableViewCell.swift */,
+				84E6A40A276FB07400F11F5E /* StatisticsViewController.swift */,
 				8423E76D276FAB3C007277B9 /* AppDelegate.swift */,
 				8423E76F276FAB3C007277B9 /* SceneDelegate.swift */,
-				8423E771276FAB3C007277B9 /* ViewController.swift */,
 				8423E773276FAB3C007277B9 /* Main.storyboard */,
 				8423E779276FAB3D007277B9 /* Assets.xcassets */,
 				8423E77B276FAB3D007277B9 /* LaunchScreen.storyboard */,
 				8423E77E276FAB3D007277B9 /* Info.plist */,
 				8423E776276FAB3C007277B9 /* TimeVisualizer.xcdatamodeld */,
+				84E6A416276FBB9400F11F5E /* Days.swift */,
+				84CB340827720C060066E72D /* Delegates.swift */,
+				8468868C277308A40018A093 /* NSUIColor+Hex.swift */,
 			);
 			path = TimeVisualizer;
 			sourceTree = "<group>";
@@ -146,6 +175,9 @@
 			dependencies = (
 			);
 			name = TimeVisualizer;
+			packageProductDependencies = (
+				848112CB276FACDF0082D850 /* Charts */,
+			);
 			productName = TimeVisualizer;
 			productReference = 8423E76A276FAB3C007277B9 /* TimeVisualizer.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +250,9 @@
 				Base,
 			);
 			mainGroup = 8423E761276FAB3C007277B9;
+			packageReferences = (
+				848112CA276FACDF0082D850 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 8423E76B276FAB3C007277B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,10 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E6A415276FB07500F11F5E /* StatisticsTableViewCell.swift in Sources */,
 				8423E778276FAB3C007277B9 /* TimeVisualizer.xcdatamodeld in Sources */,
-				8423E772276FAB3C007277B9 /* ViewController.swift in Sources */,
+				84E6A414276FB07500F11F5E /* ColumnFlowLayout.swift in Sources */,
+				84E6A410276FB07500F11F5E /* KeyWordsViewController.swift in Sources */,
+				84CB340927720C060066E72D /* Delegates.swift in Sources */,
+				8468868D277308A40018A093 /* NSUIColor+Hex.swift in Sources */,
 				8423E76E276FAB3C007277B9 /* AppDelegate.swift in Sources */,
+				84E6A412276FB07500F11F5E /* KeyWordCollectionViewCell.swift in Sources */,
+				84E6A413276FB07500F11F5E /* NotesViewController.swift in Sources */,
+				84E6A411276FB07500F11F5E /* StatisticsViewController.swift in Sources */,
 				8423E770276FAB3C007277B9 /* SceneDelegate.swift in Sources */,
+				84E6A417276FBB9400F11F5E /* Days.swift in Sources */,
+				84E6A40F276FB07500F11F5E /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		848112CA276FACDF0082D850 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		848112CB276FACDF0082D850 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 848112CA276FACDF0082D850 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8423E776276FAB3C007277B9 /* TimeVisualizer.xcdatamodeld */ = {
